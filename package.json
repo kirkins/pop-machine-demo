@@ -1,0 +1,30 @@
+{
+  "name": "Pop_Machine",
+  "version": "1.0.0",
+  "description": "A demo pop machine for IoT device management",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "build --dir",
+    "dist": "build --linux --win --ia32 --x64",
+    "mac": "build --mac"
+  },
+  "build": {
+    "appId": "Kirkbride.popmachine",
+    "mac": {
+      "category": "toy"
+    }
+  },
+  "repository": "https://github.com/kirkins/pop-machine-demo.git",
+  "author": "Philip Kirkbride <kirkins@gmail.com>",
+  "devDependencies": {
+    "electron": "~1.6.2",
+    "electron-builder": "^18.6.2"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "dialog": "^0.3.1",
+    "fs": "0.0.1-security",
+    "jquery": "^3.2.1"
+  }
+}
