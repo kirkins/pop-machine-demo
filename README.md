@@ -1,4 +1,4 @@
-# Provisioning Utility
+# Pop Machine
 
 GUI of demo project which looks at the management and diagnostics
 of a fleet of pop machines.
