@@ -56,3 +56,6 @@ document.onclick = function(event) {
   if (el.className == "buy") popSold(el.getAttribute("type"));
 }
 
+document.getElementById("exit").onclick = function(event) {
+  close();
+}

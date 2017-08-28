@@ -15,7 +15,7 @@ function createWindow () {
   // Create the browser window.
   mainWindow = new BrowserWindow({width: 320, height: 500, icon: path.join(__dirname, 'img/icon.png'), fullscreen: true})
   mainWindow.setMenu(null);
-  mainWindow.openDevTools();
+  // mainWindow.openDevTools();
 
   // and load the index.html of the app.
   mainWindow.loadURL(url.format({
